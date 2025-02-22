@@ -188,7 +188,7 @@ const CarouselHero: React.FC<CarouselHeroProps> = ({
 
 <section className="flex items-center mr-auto ml-4 mt-6">
       <button className=" rounded-full border border-neutral-950 p-3 text-sm font-medium transition-colors hover:bg-neutral-950 hover:text-neutral-100
-      bg-[#338d96]
+      bg-[]
       mr-4">
         Contact
       </button>

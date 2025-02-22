@@ -192,94 +192,93 @@ export const testimonials = [
     alt: "Testimonial from Alicia Lockhart"
   },
   {
-    name: "Michela Demarco",
+    name: "Jake Gaudet",
     src: "/place-holder.jpg",
     description:
-      "Does great work and is always reliable!",
+      "Chris was great to deal with - tailored the home buying experience to me based on my background in home financing but also made sure I was aware of other things I would not be as aware of as a first-time home buyer. Chris has great connections in the industry and is very quick to respond and answer any questions.",
     date: "a month ago",
     alt: "Testimonial from Jake Gaudet"
   },
   {
-    name: "Rose Dillman",
+    name: "Adam Piercey",
     src: "/place-holder.jpg",
     description:
-      "I had Mike and crew to do gable ends on my house. I was very pleased with the work. when he found something else wrong that should be fixed, he let me know before going ahead. very reasonable price and very careful and considerate of property. Nice job guys.",
+      "Chris was an absolute pleasure to work with! He sold our house in just two days, exceeding all our expectations. His professionalism, expertise, and dedication made the entire process smooth and stress-free. We couldn’t be happier with the results and highly recommend Chris to anyone looking to buy or sell a home!",
     date: "a month ago",
     alt: "Testimonial from Adam Piercey"
   },
   {
-    name: "Rachael Taylor",
+    name: "John Gilfillan",
     src: "/place-holder.jpg",
     description:
-      `I have been fortunate enough to have Michael and his crew on a couple projects. Obviously I am pleased with the work and the end results, thus the review. But what impressed me was them taking the time to confirm the integrity of the surrounding area, making suggestions to improve the function and longevity of my outdoor living space, and their clear concise communications. Not to mention their quote was accurate, and extremely reasonable compared to the others I received. 
-      You will love the beauty that Sagittarius C&R creates for your custom project. From the quality of the materials to the time and attention to detail, you will see the pride they take in their work every step of the way.`,
+      "Chris is exceptional! From the very start of our interaction with him, and throughout the entire process of buying our first home, Chris has been a true professional who repeatedly goes above and beyond. He has been a pleasure to work with. We will definitely be calling on him again for our next home. We very highly recommend Chris!",
     date: "5 months ago",
     alt: "Testimonial from John Gilfillan"
   },
-//   {
-//     name: "Bryan Lawlor",
-//     src: "/place-holder.jpg",
-//     description:
-//       "Chris was great to deal with! He is very knowledgeable of the industry and fully understood our needs and wants. Also was readily available to have phone calls when we needed to ask questions!",
-//     date: "4 weeks ago",
-//     alt: "Testimonial from Bryan Lawlor"
-//   },
-//   {
-//     name: "Bonnie Noddin",
-//     src: "/place-holder.jpg",
-//     description:
-//       "Amazing customer service and a whole lot of support through the first-time home buyers process. Couldn't have asked for a better agent on my side! Thanks so much, Chris - you made this experience so positive for us! Quick responses, strong support!",
-//     date: "5 months ago",
-//     alt: "Testimonial from Bonnie Noddin"
-//   },
-//   {
-//     name: "John Vo",
-//     src: "/place-holder.jpg",
-//     description:
-//       "Chris is a very knowledgeable and responsive realtor. He goes above and beyond for his clients and I recommend him for anyone looking to buy or sell their home. You won't be disappointed!",
-//     date: "4 months ago",
-//     alt: "Testimonial from John Vo"
-//   },
-//   {
-//     name: "Cathy MacDonald",
-//     src: "/place-holder.jpg",
-//     description:
-//       "Best broker ever. Chris was very knowledgeable and always there when I needed him. He made the purchase of my home stress-free. Whatever I needed, whatever questions I had he was there. I highly recommend Chris to everyone.",
-//     date: "a year ago",
-//     alt: "Testimonial from Cathy MacDonald"
-//   },
-//   {
-//     name: "Marilou Simons",
-//     src: "/place-holder.jpg",
-//     description:
-//       "Chris is absolutely phenomenal- he helped myself and my husband every step of the way through the process of buying our first home- which, in this market/time, we weren’t sure would happen, let alone have a good time while doing it.",
-//     date: "a year ago",
-//     alt: "Testimonial from Marilou Simons"
-//   },
-//   {
-//     name: "Austin Maillet",
-//     src: "/place-holder.jpg",
-//     description:
-//       "Easy to work with, knows his stuff, got us the price we wanted - what more could you ask for? Chris is good at what he does!",
-//     date: "a month ago",
-//     alt: "Testimonial from Austin Maillet"
-//   },
-//   {
-//     name: "LUCAS RIBEIRO DE SOUZA Ribeiro",
-//     src: "/place-holder.jpg",
-//     description:
-//       "Absolutely fantastic, caring, all-time available and honest and transparent. I cannot encourage enough anyone buying a home to go with this man. He is just great and cares for his clients with all he has. Thanks again for all your hard work, Chris! You rock!",
-//     date: "8 months ago",
-//     alt: "Testimonial from LUCAS RIBEIRO DE SOUZA Ribeiro"
-//   },
-//   {
-//     name: "Joline LeBlanc",
-//     src: "/place-holder.jpg",
-//     description:
-//       "Chris took the stress out of trying to sell my place from across the country. No matter what hurdles were put in the way, he was prepared to deal with them and keep the process moving forward. Great communication throughout the whole process!",
-//     date: "a year ago",
-//     alt: "Testimonial from Joline LeBlanc"
-//   }
+  {
+    name: "Bryan Lawlor",
+    src: "/place-holder.jpg",
+    description:
+      "Chris was great to deal with! He is very knowledgeable of the industry and fully understood our needs and wants. Also was readily available to have phone calls when we needed to ask questions!",
+    date: "4 weeks ago",
+    alt: "Testimonial from Bryan Lawlor"
+  },
+  {
+    name: "Bonnie Noddin",
+    src: "/place-holder.jpg",
+    description:
+      "Amazing customer service and a whole lot of support through the first-time home buyers process. Couldn't have asked for a better agent on my side! Thanks so much, Chris - you made this experience so positive for us! Quick responses, strong support!",
+    date: "5 months ago",
+    alt: "Testimonial from Bonnie Noddin"
+  },
+  {
+    name: "John Vo",
+    src: "/place-holder.jpg",
+    description:
+      "Chris is a very knowledgeable and responsive realtor. He goes above and beyond for his clients and I recommend him for anyone looking to buy or sell their home. You won't be disappointed!",
+    date: "4 months ago",
+    alt: "Testimonial from John Vo"
+  },
+  {
+    name: "Cathy MacDonald",
+    src: "/place-holder.jpg",
+    description:
+      "Best broker ever. Chris was very knowledgeable and always there when I needed him. He made the purchase of my home stress-free. Whatever I needed, whatever questions I had he was there. I highly recommend Chris to everyone.",
+    date: "a year ago",
+    alt: "Testimonial from Cathy MacDonald"
+  },
+  {
+    name: "Marilou Simons",
+    src: "/place-holder.jpg",
+    description:
+      "Chris is absolutely phenomenal- he helped myself and my husband every step of the way through the process of buying our first home- which, in this market/time, we weren’t sure would happen, let alone have a good time while doing it.",
+    date: "a year ago",
+    alt: "Testimonial from Marilou Simons"
+  },
+  {
+    name: "Austin Maillet",
+    src: "/place-holder.jpg",
+    description:
+      "Easy to work with, knows his stuff, got us the price we wanted - what more could you ask for? Chris is good at what he does!",
+    date: "a month ago",
+    alt: "Testimonial from Austin Maillet"
+  },
+  {
+    name: "LUCAS RIBEIRO DE SOUZA Ribeiro",
+    src: "/place-holder.jpg",
+    description:
+      "Absolutely fantastic, caring, all-time available and honest and transparent. I cannot encourage enough anyone buying a home to go with this man. He is just great and cares for his clients with all he has. Thanks again for all your hard work, Chris! You rock!",
+    date: "8 months ago",
+    alt: "Testimonial from LUCAS RIBEIRO DE SOUZA Ribeiro"
+  },
+  {
+    name: "Joline LeBlanc",
+    src: "/place-holder.jpg",
+    description:
+      "Chris took the stress out of trying to sell my place from across the country. No matter what hurdles were put in the way, he was prepared to deal with them and keep the process moving forward. Great communication throughout the whole process!",
+    date: "a year ago",
+    alt: "Testimonial from Joline LeBlanc"
+  }
 ];
 
 

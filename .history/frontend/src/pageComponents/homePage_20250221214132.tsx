@@ -67,38 +67,22 @@ const Homepage = () => {
             {...experienceCardData}
             buttonText="Contact now"
             />
-</section>
-         
-<section id='work'>
 
+         
 
             <GridCarousel
             images={gridItems}
             isGrid
             />
-            </section>
-
-<section id='reviews'>
-
 
             <GoogleReviews
             reviews={testimonials}
             />
-            </section>
-            <section id='why-us'>
-
-          
                <TextAndList
             {...textAndListData}
             />
-              </section>
-
-              <section id='contact'>
-
-          
 
             <ApplicationForm/>
-            </section>
 
             <Footer2
             excludedLink="Home"

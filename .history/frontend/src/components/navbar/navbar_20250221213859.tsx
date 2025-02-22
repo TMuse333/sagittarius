@@ -95,7 +95,7 @@ const Navbar: React.FC<NavbarProps> = ({ links }) => {
            />
                 <div
                     className={`
-                    fixed right-[0%] sm:right-[5%] top-[20px] flex flex-col justify-center items-center lg:relative lg:top-auto lg:right-auto`}
+                    fixed right-[8%] sm:right-[5%] top-[12px] flex flex-col justify-center items-center lg:relative lg:top-auto lg:right-auto`}
                     onClick={handleSubmenuClick}
                 >
                     <div className="lg:hidden w-[140px] lg:w-auto flex flex-col justify-center items-center">

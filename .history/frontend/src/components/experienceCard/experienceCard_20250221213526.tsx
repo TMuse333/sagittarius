@@ -186,7 +186,7 @@ const ExperienceCard: React.FC<Props> = ({
                         {link !== '' && (
 
   
-                        <button className="bg-[#338d96]
+                        <button className="bg-[#7F9C9F]
                         p-2 rounded-2xl mt-3 hover:text-blue-500
                         hover:bg-white transition-all">
                           
@@ -211,7 +211,7 @@ const ExperienceCard: React.FC<Props> = ({
                 <ul className="mx-auto font-semibold mt-4 md:grid md:grid-cols-3  md:px-4
                 pb-8 w-full justify-around ">
                     {aspects.map((aspect, index) => (
-                        <motion.li className="mb-4 w-[90%] max-w-[250px] mx-auto p-3 bg-[#338d96] rounded-2xl flex justify-center items-center text-center md:w-full md:mr-4"
+                        <motion.li className="mb-4 w-[90%] max-w-[250px] mx-auto p-3 bg-[#7F9C9F] rounded-2xl flex justify-center items-center text-center md:w-full md:mr-4"
                             key={index}
                             variants={liVariants(isMobile ? index * 0.2 : index * 0.1,index)}
                             initial='initial'

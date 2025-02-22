@@ -79,7 +79,7 @@ const Navbar: React.FC<NavbarProps> = ({ links }) => {
         <nav className={`fixed top-0 z-[200] w-screen left-0 bg-[#4D8890] h-[50px] flex 
         justify-between items-center
         transition-colors
-       duration-1000 text-white `
+       duration-1000 text-black `
        }
     //    style={{
     //     fontFamily:'Times, "Times New Roman", serif'
@@ -95,21 +95,20 @@ const Navbar: React.FC<NavbarProps> = ({ links }) => {
            />
                 <div
                     className={`
-                    fixed right-[0%] sm:right-[5%] top-[20px] flex flex-col justify-center items-center lg:relative lg:top-auto lg:right-auto`}
+                    fixed right-[-8%] sm:right-[5%] top-[45px] flex flex-col justify-center items-center lg:relative lg:top-auto lg:right-auto`}
                     onClick={handleSubmenuClick}
                 >
                     <div className="lg:hidden w-[140px] lg:w-auto flex flex-col justify-center items-center">
-                        <div className={`h-[3px] bg-gray-200 w-[20px] mb-1`} />
-                        <div className={`h-[3px] bg-gray-200  w-[20px] mb-1`} />
-                        <div className={`h-[3px] bg-gray-200  w-[20px] mb-1`} />
+                        <div className={`h-[3px] bg-gray-500 w-[20px] mb-1`} />
+                        <div className={`h-[3px] bg-gray-500  w-[20px] mb-1`} />
+                        <div className={`h-[3px] bg-gray-500  w-[20px] mb-1`} />
                     </div>
                   
                 </div>
                 <ul
   className={`text-left 
-    fixed right-[0%] top-[50px] overflow-hidden 
-        transition-[height]
-        bg-[#338d96] duration-[250ms]
+    fixed right-[5%] top-[70px] overflow-hidden 
+        transition-[height] duration-[250ms]
     transition colors duration-[1500ms]
     flex flex-col items-center
     justify-center rounded-lg w-[140px]
@@ -123,7 +122,7 @@ const Navbar: React.FC<NavbarProps> = ({ links }) => {
                                 {link.hasScroll ? (
                                     <li
                                         className={`text-md lg:text-lg mb-2 pl-2 pr-2 lg:mb-0 hover:text-blue-400 cursor-pointer
-                                       `}
+                                       text-black`}
                                         onClick={() => handleScroll(link.destination)}
                                     >
                                         {link.name}

@@ -94,11 +94,10 @@ const Homepage = () => {
               </section>
 
               <section id='contact'>
-
-          
+                
+              </section>
 
             <ApplicationForm/>
-            </section>
 
             <Footer2
             excludedLink="Home"

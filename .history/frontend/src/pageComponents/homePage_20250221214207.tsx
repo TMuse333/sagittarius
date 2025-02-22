@@ -86,19 +86,13 @@ const Homepage = () => {
             />
             </section>
             <section id='why-us'>
-
-          
+                
+            </section>
                <TextAndList
             {...textAndListData}
             />
-              </section>
-
-              <section id='contact'>
-
-          
 
             <ApplicationForm/>
-            </section>
 
             <Footer2
             excludedLink="Home"

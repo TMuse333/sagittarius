@@ -98,7 +98,6 @@ const Homepage = () => {
           
 
             <ApplicationForm/>
-            </section>
 
             <Footer2
             excludedLink="Home"
