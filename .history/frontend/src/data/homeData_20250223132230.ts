@@ -41,7 +41,7 @@ export const carouselHeroData = {
 export const lorem60 = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nobis laborum porro voluptas molestias nihil, eum ea velit quae, perspiciatis blanditiis dolorum culpa unde est eos earum a rem eveniet accusantium doloremque! Molestias illum inventore quae adipisci esse unde tempore, deleniti sed culpa nulla, sint placeat asperiores commodi? Libero ut tempora ad deserunt beatae facilis cum esse magni quaerat. Quasi nihil perspiciatis culpa minus, voluptates inventore saepe repudiandae reiciendis accusantium fuga exercitationem vero, eligendi voluptatibus nam neque, cumque explicabo vitae tenetur expedita accusamus placeat. Corporis perspiciatis, eius minus debitis ex, ad ducimus, error neque id itaque eligendi quibusdam hic pariatur!"
 
 export const imageTextBoxData = {
-    src: '/logo.webp',
+    src: '/logojpg',
     alt: 'Sagittarius Construction Team',
     description: 'With years of experience in the construction industry, our team specializes in designing and building decks and fences that stand the test of time. We use only high-quality materials and modern techniques to ensure durability and customer satisfaction.',
     title: 'Meet Our Team',

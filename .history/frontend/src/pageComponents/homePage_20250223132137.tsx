@@ -1,7 +1,7 @@
 "use client"
 
 import ApplicationForm from "@/components/contactForm/contactForm";
-// import DualImageBoxes from "@/components/dualImageTextBox/dualImageTextBox";
+import DualImageBoxes from "@/components/dualImageTextBox/dualImageTextBox";
 import ExperienceCard from "@/components/experienceCard/experienceCard";
 import Footer2 from "@/components/footer/footer";
 import GoogleReviews from "@/components/googleReviews/googleReviews";
@@ -13,8 +13,7 @@ import TextAndList from "@/components/textAndList/textAndList";
 import { carouselHeroData, experienceCardData,
      testimonials,
       textAndListData,
-gridItems, 
-imageTextBoxData} from "@/data/homeData";
+gridItems } from "@/data/homeData";
 import React from "react";
 
 
@@ -96,8 +95,7 @@ const Homepage = () => {
               </section>
 
               <ImageTextBox
-              {...imageTextBoxData}
-              />
+              {...image}
 
               <section id='contact'>
 

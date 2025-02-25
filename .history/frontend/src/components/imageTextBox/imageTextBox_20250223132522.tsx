@@ -149,7 +149,7 @@ const imageFadeIn = (delay:number) => {
          variants={fadeIn(0)}
          initial='initial'
          animate={imgInView && !isMobile ? 'animate' : 'initial'}
-        className="hidden md:block text-left pl-5 sm:pl-12 pt-5 sm:text-4xl font-semibold  text-3xl pr-3
+        className="hidden md:block text-left pl-5 sm:pl-12 pt-5 sm:text-4xl font-semibold text-black text-3xl pr-3
         font-cursive">
           {title}
         </motion.h2>
@@ -168,8 +168,8 @@ const imageFadeIn = (delay:number) => {
           <Link href={buttonLink}>
           <motion.button
   className="mt-6 p-3  rounded-xl text-white bg-[#338d96]
-            
-            hover:scale-[1.05]  transition-all "
+            hover:bg-gradient-to-br hover:from-blue-800 hover:to-blue-300 
+            hover:bg-white  transition-all "
 
              variants={fadeIn(isMobile ? 0 : 0.4)}
              initial="initial"

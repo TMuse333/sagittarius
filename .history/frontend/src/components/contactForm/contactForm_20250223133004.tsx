@@ -154,7 +154,7 @@ const ApplicationForm = () => {
                 />
                 <button onClick={handleSubmit}
                 className="bg-[#4D8890] p-3 rounded-xl
-                ml-9 mb-8 hover:text-[#4D8890] hover:bg-white transition-all">
+                ml-9 mb-8">
                     Submit form
                 </button>
 

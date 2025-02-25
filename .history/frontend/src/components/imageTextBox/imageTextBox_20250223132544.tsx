@@ -149,7 +149,7 @@ const imageFadeIn = (delay:number) => {
          variants={fadeIn(0)}
          initial='initial'
          animate={imgInView && !isMobile ? 'animate' : 'initial'}
-        className="hidden md:block text-left pl-5 sm:pl-12 pt-5 sm:text-4xl font-semibold  text-3xl pr-3
+        className="hidden md:block text-left pl-5 sm:pl-12 pt-5 sm:text-4xl font-semibold text-black text-3xl pr-3
         font-cursive">
           {title}
         </motion.h2>

@@ -146,17 +146,17 @@ const imageFadeIn = (delay:number) => {
       <div className="w-screen md:w-[45vw] pr-4 md:pr-0">
         <motion.h2 
         //  ref={headerRef}
-         variants={fadeIn(0)}
-         initial='initial'
-         animate={imgInView && !isMobile ? 'animate' : 'initial'}
-        className="hidden md:block text-left pl-5 sm:pl-12 pt-5 sm:text-4xl font-semibold  text-3xl pr-3
+        //  variants={fadeIn(0)}
+        //  initial='initial'
+        //  animate={imgInView && !isMobile ? 'animate' : 'initial'}
+        className="hidden md:block text-left pl-5 sm:pl-12 pt-5 sm:text-4xl font-semibold text-black text-3xl pr-3
         font-cursive">
           {title}
         </motion.h2>
 
         <motion.p
         ref={pRef}
-         className="mt-6 pl-5 text-left sm:pl-12 pr-4"
+         className="mt-6 pl-5 text-left sm:pl-12 pr-4 text-gray-700"
          variants={fadeIn(isMobile ? 0 : 0.2)}
          initial="initial"
          animate={pInView ? 'animate' : 'initial'}
@@ -167,9 +167,9 @@ const imageFadeIn = (delay:number) => {
           {buttonLink && (
           <Link href={buttonLink}>
           <motion.button
-  className="mt-6 p-3  rounded-xl text-white bg-[#338d96]
-            
-            hover:scale-[1.05]  transition-all "
+  className="mt-6 p-3  rounded-xl text-white bg-gradient-to-br from-blue-400 to-blue-300 
+            hover:bg-gradient-to-br hover:from-blue-800 hover:to-blue-300 
+            hover:bg-white  transition-all "
 
              variants={fadeIn(isMobile ? 0 : 0.4)}
              initial="initial"
