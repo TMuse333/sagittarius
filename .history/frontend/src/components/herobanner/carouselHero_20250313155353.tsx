@@ -171,7 +171,7 @@ const CarouselHero: React.FC<CarouselHeroProps> = ({
           styles="mx-auto py-3 break-words max-w-full px-2 font-semibold whitespace-pre-line
           overflow-wrap text-3xl sm:text-4xl md:text-5xl"
           as="p"
-          keywords={["Deck","Fence"]}
+          keywords={["Deck"]}
           setAnimationComplete={setStartPTag}
           startAnimation={startTypeAlong}
         />

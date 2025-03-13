@@ -4,8 +4,8 @@
 
 
 export const carouselHeroData = {
-    mainHeader: "Fantastic Deck & Fence Construction",
-    titleText: "Construction in halifax nova scotia",
+    mainHeader: "Construction in halifax nova scotia",
+    titleText: "Great Construction",
     descriptionText:
       "Providing top-quality decks and fences that enhance your outdoor space. Whether you're looking for a custom-built deck or a durable privacy fence, we bring craftsmanship and reliability to every project.",
     buttonText: "Get in Touch",

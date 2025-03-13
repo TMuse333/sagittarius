@@ -79,7 +79,7 @@ const TypeAlongText: React.FC<TypeAlongTextProps> = ({
                 style={
                   highlightComplete && isKeyword(word)
                     ? {
-                        background: 'linear-gradient(90deg, #4D8890, #4D8890, #4D8890)',
+                        background: 'linear-gradient(90deg, #00A4F6, #66C8FF, #00A4F6)',
                         backgroundSize: '200% 200%',
                         backgroundClip: 'text',
                         WebkitBackgroundClip: 'text',
