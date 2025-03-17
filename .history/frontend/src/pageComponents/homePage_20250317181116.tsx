@@ -18,8 +18,7 @@ import { carouselHeroData, experienceCardData,
 gridItems, 
 imageTextBoxData,
 deckTextBox,
-fenceTextBox,
-aspectsData} from "@/data/homeData";
+fenceTextBox} from "@/data/homeData";
 import React from "react";
 
 
@@ -120,16 +119,15 @@ const Homepage = () => {
                <TextAndList
             {...textAndListData}
             />
-                  <ImageAspects
-              images={aspectsData}
-             />
               </section>
 
               <ImageTextBox
               {...imageTextBoxData}
               />
 
-        
+              <ImageAspects
+              images={imageAspectsData}
+              {...image}
 
               <section id='contact'>
 

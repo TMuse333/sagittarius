@@ -120,16 +120,15 @@ const Homepage = () => {
                <TextAndList
             {...textAndListData}
             />
-                  <ImageAspects
-              images={aspectsData}
-             />
               </section>
 
               <ImageTextBox
               {...imageTextBoxData}
               />
 
-        
+              <ImageAspects
+              images={imageAspectsData}
+              {...aspectsData}
 
               <section id='contact'>
 

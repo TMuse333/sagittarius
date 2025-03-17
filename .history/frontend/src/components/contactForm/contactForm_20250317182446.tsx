@@ -139,9 +139,9 @@ const ApplicationForm = () => {
                </ul> */}
 
                <p className="px-4 sm:text-lg">
-               At Sagittarius Construction, we are committed to delivering top-quality decks, fences, and renovations that stand the test of time. Whether you are looking to enhance your outdoor space or start a new construction project, our expert team is ready to bring your vision to life—on budget, on time, and with craftsmanship you can trust.
+               At Sagittarius Construction, we are committed to delivering top-quality decks, fences, and renovations that stand the test of time. Whether you're looking to enhance your outdoor space or start a new construction project, our expert team is ready to bring your vision to life—on budget, on time, and with craftsmanship you can trust.
                <br/>
-               Get a Free Consultation Today! Contact us now and we will start planning your next project. Your dream outdoor space is just one call away!
+               Get a Free Consultation Today! Contact us now and let&apos;s start planning your next project. Your dream outdoor space is just one call away!
                </p>
 
             </section>

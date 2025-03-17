@@ -7,7 +7,8 @@ import logo from '../../../public/logo.webp'
 import Image from "next/image";
 // import axios from 'axios'
 import { useGeneralContext } from "@/context/context";
-
+// import chris from '../../../public/chris-main.webp'
+import {Check} from 'lucide-react'
 
  const applicationQuestions = [
     {
@@ -40,16 +41,16 @@ import { useGeneralContext } from "@/context/context";
 
 const ApplicationForm = () => {
 
-  // const aspects = [
-  //   "Precision craftsmanship for every deck and fence we build.",
-  //   "We use only premium-grade materials that ensure durability and longevity.",
-  //   "Custom designs tailored to your needs, making your vision a reality.",
-  //   "Built for strength – our decks and fences are made to withstand the toughest conditions.",
-  //   "Expertly crafted with attention to every detail for a flawless finish.",
-  //   "Fast, efficient project timelines so you can enjoy your new deck or fence sooner.",
-  //   "Competitive pricing without compromising on quality.",
-  //   "Our team is dedicated to ensuring your project is completed on time, every time."
-  // ];
+  const aspects = [
+    "Precision craftsmanship for every deck and fence we build.",
+    "We use only premium-grade materials that ensure durability and longevity.",
+    "Custom designs tailored to your needs, making your vision a reality.",
+    "Built for strength – our decks and fences are made to withstand the toughest conditions.",
+    "Expertly crafted with attention to every detail for a flawless finish.",
+    "Fast, efficient project timelines so you can enjoy your new deck or fence sooner.",
+    "Competitive pricing without compromising on quality.",
+    "Our team is dedicated to ensuring your project is completed on time, every time."
+  ];
   
       
 
@@ -107,8 +108,6 @@ const ApplicationForm = () => {
                 mt-4 mb-4 text-black">
                     Youth Bar
                 </h3> */}
-                               <h2 className="text-center text-xl sm:text-2xl
-               md:text-3xl mt-4">Let’s Build Something Great Together!</h2>
                <Image
                src={logo}
                alt='logo'
@@ -137,25 +136,23 @@ const ApplicationForm = () => {
                   </li>
                 ))}
                </ul> */}
-
-               <p className="px-4 sm:text-lg">
-               At Sagittarius Construction, we are committed to delivering top-quality decks, fences, and renovations that stand the test of time. Whether you are looking to enhance your outdoor space or start a new construction project, our expert team is ready to bring your vision to life—on budget, on time, and with craftsmanship you can trust.
-               <br/>
-               Get a Free Consultation Today! Contact us now and we will start planning your next project. Your dream outdoor space is just one call away!
+               <h2>Let’s Build Something Great Together!</h2>
+               <p>
+               At Sagittarius Construction, we’re committed to delivering top-quality decks, fences, and renovations that stand the test of time. Whether you're looking to enhance your outdoor space or start a new construction project, our expert team is ready to bring your vision to life—on budget, on time, and with craftsmanship you can trust.
                </p>
 
             </section>
             <section className="
             mt-12">
-                <h3 className="mt-4 mb-[-2rem]  text-left  max-w-[455px] mx-auto  md:text-lg">
-                  Here you can fill out a form with your requirements
-                     {/* <button onClick={() => document.getElementById("calendar")?.scrollIntoView({ behavior: "smooth" })}
+                <h3 className="mt-4 mb-[-2rem]  text-left pl-6 max-w-[455px] mx-auto md:pl-7 md:text-lg">
+                    Fill out the following form for any questions you may have
+                    or book an appointment  <button onClick={() => document.getElementById("calendar")?.scrollIntoView({ behavior: "smooth" })}
 
                 className="bg-[#4D8890] p-3 rounded-xl text-white
                 hover:text-[#4D8890] hover:bg-white transition-all
                 mt-4">
                     Schedule online meeting
-                </button> */}
+                </button>
                 </h3>
                 <InputForm
                 questions={applicationQuestions}

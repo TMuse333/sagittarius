@@ -1,6 +1,6 @@
 
 
-import { ContentProps } from "@/components/imageTextBox/imageTextBox";
+
 
 
 export const carouselHeroData = {
@@ -346,103 +346,11 @@ export const gridItems = [
         url:'/wall-after.webp',
         title:'A deck for sagittarius construction'
     },
-    {
-      url:'/big-fence.webp',
-       title:'A deck for sagittarius construction'
-    },
-    {
-      url:'/deck2.webp',
-      title:'A deck for sagittarius construction'
-    },
-   {
-    url:'/deck4.webp',
-    title:'A deck for sagittarius construction'
-
-   },
-   {
-    url:'/kitchen.webp',
-    title:'A kitchen'
-   }
+    // {
+    //   url:'/big-fence'
+    // }
 ]
 
   
-export const deckTextBox: ContentProps = {
-  src: '/deck3.webp',
-  alt: 'A big deck for Sagittarius Construction',
-  description: 'Our team specializes in designing and building high-quality, durable decks that enhance outdoor spaces. We use premium materials and expert craftsmanship to create decks that are both stylish and long-lasting, ensuring you get the perfect space for relaxing and entertaining. Whether you need a spacious deck for hosting gatherings or a cozy retreat for quiet evenings, we tailor every project to your needs. Our attention to detail and commitment to excellence guarantee a deck that not only looks great but also withstands the test of time.',
-  title: 'Our Decks',
-};
-
-export const fenceTextBox: ContentProps = {
-  src: '/big-fence.webp',
-  alt: 'A tall wooden fence built by Sagittarius Construction',
-  description: 'We build strong, aesthetically pleasing fences that provide security, privacy, and curb appeal. Whether you need a classic wooden fence, a modern design, or a fully customized solution, we ensure top-tier craftsmanship and high-quality materials. Our fences are built to endure harsh weather conditions while maintaining their beauty and functionality. From enhancing the look of your property to keeping your space secure, our expertly crafted fences are designed to meet your specific requirements, giving you peace of mind and a standout property boundary.',
-  title: 'Our Fences',
-};
-
-export const aspectsData = [
-  {
-    title: "Expertise and Experience",
-    src: "/big-fence.webp",
-    description: "Our team has extensive experience in various types of construction projects, ensuring high-quality results.",
-    alt: "A reason to choose Sagittarius Construction",
-  },
-  {
-    title: "Skilled Workforce",
-    src: "/big-fence.webp",
-    description: "We employ skilled professionals who are trained in the latest construction techniques and safety standards.",
-    alt: "A reason to choose Sagittarius Construction",
-  },
-  {
-    title: "Quality Materials",
-    src: "/big-fence.webp",
-    description: "We use only the best materials to ensure durability and longevity in all our projects.",
-    alt: "A reason to choose Sagittarius Construction",
-  },
-  {
-    title: "Customer-Centric Approach",
-    src: "/big-fence.webp",
-    description: "We prioritize our clients’ needs and provide personalized service to ensure that your vision is realized.",
-    alt: "A reason to choose Sagittarius Construction",
-  },
-  {
-    title: "Timely Completion",
-    src: "/big-fence.webp",
-    description: "We understand the importance of deadlines and work diligently to complete projects on time without compromising quality.",
-    alt: "A reason to choose Sagittarius Construction",
-  },
-  {
-    title: "Transparent Pricing",
-    src: "/big-fence.webp",
-    description: "Our pricing is competitive and transparent, with no hidden fees. We provide detailed estimates to help you budget effectively.",
-    alt: "A reason to choose Sagittarius Construction",
-  },
-  {
-    title: "Sustainability Practices",
-    src: "/big-fence.webp",
-    description: "We are committed to environmentally friendly practices, using sustainable materials and energy-efficient techniques wherever possible.",
-    alt: "A reason to choose Sagittarius Construction",
-  },
-  {
-    title: "Strong Reputation",
-    src: "/big-fence.webp",
-    description: "Our company has a solid track record of satisfied clients and successful projects, which speaks to our reliability and quality of work.",
-    alt: "A reason to choose Sagittarius Construction",
-  },
-  {
-    title: "Comprehensive Services",
-    src: "/big-fence.webp",
-    description: "We offer a wide range of services, from initial design and planning to construction and post-project support.",
-    alt: "A reason to choose Sagittarius Construction",
-  },
-  {
-    title: "Safety Commitment",
-    src: "/big-fence.webp",
-    description: "Safety is our top priority. We adhere to strict safety protocols to ensure the well-being of our team and clients.",
-    alt: "A reason to choose Sagittarius Construction",
-  },
-];
-
-
-
+  
   

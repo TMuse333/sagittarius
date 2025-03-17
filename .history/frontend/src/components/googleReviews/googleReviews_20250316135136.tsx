@@ -92,7 +92,7 @@ text-3xl sm:text-4xl font-semibold text-center relative transition-colors"
 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi soluta molestiae earum maxime aliquam assumenda, animi possimus ut optio atque! Odio omnis nisi possimus fugit!
 <br/>
 <a 
-  href="https://www.google.com/maps/place/Sagittarius+Construction/@45.1932025,-68.3189312,6z/data=!3m1!4b1!4m6!3m5!1s0x6919d162980a017b:0x3540f39c10b3d454!8m2!3d45.3077481!4d-63.028289!16s%2Fg%2F11kpqb7fkv?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D" 
+  href="saggitarius contruction" 
   target="_blank" 
   rel="noopener noreferrer"
 >

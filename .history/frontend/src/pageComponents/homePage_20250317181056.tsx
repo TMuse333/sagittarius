@@ -7,7 +7,6 @@ import Footer2 from "@/components/footer/footer";
 import GoogleReviews from "@/components/googleReviews/googleReviews";
 import GridCarousel from "@/components/gridCarousel/gridCarousel";
 import CarouselHero from "@/components/herobanner/carouselHero";
-import ImageAspects from "@/components/ImageAspects/imageAspects";
 import ImageTextBox from "@/components/imageTextBox/imageTextBox";
 import Navbar from "@/components/navbar/navbar";
 import TextAndList from "@/components/textAndList/textAndList";
@@ -18,8 +17,7 @@ import { carouselHeroData, experienceCardData,
 gridItems, 
 imageTextBoxData,
 deckTextBox,
-fenceTextBox,
-aspectsData} from "@/data/homeData";
+fenceTextBox} from "@/data/homeData";
 import React from "react";
 
 
@@ -120,16 +118,13 @@ const Homepage = () => {
                <TextAndList
             {...textAndListData}
             />
-                  <ImageAspects
-              images={aspectsData}
-             />
               </section>
 
               <ImageTextBox
               {...imageTextBoxData}
               />
 
-        
+              
 
               <section id='contact'>
 

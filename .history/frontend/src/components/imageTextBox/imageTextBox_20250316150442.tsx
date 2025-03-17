@@ -143,8 +143,7 @@ const imageFadeIn = (delay:number) => {
 
 )}
 
-      <div className="w-screen md:w-[45vw] pr-4 md:pr-0
-      md:mb-auto md:mt-12">
+      <div className="w-screen md:w-[45vw] pr-4 md:pr-0">
         <motion.h2 
         //  ref={headerRef}
          variants={fadeIn(0)}

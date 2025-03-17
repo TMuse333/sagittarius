@@ -40,16 +40,16 @@ import { useGeneralContext } from "@/context/context";
 
 const ApplicationForm = () => {
 
-  // const aspects = [
-  //   "Precision craftsmanship for every deck and fence we build.",
-  //   "We use only premium-grade materials that ensure durability and longevity.",
-  //   "Custom designs tailored to your needs, making your vision a reality.",
-  //   "Built for strength – our decks and fences are made to withstand the toughest conditions.",
-  //   "Expertly crafted with attention to every detail for a flawless finish.",
-  //   "Fast, efficient project timelines so you can enjoy your new deck or fence sooner.",
-  //   "Competitive pricing without compromising on quality.",
-  //   "Our team is dedicated to ensuring your project is completed on time, every time."
-  // ];
+  const aspects = [
+    "Precision craftsmanship for every deck and fence we build.",
+    "We use only premium-grade materials that ensure durability and longevity.",
+    "Custom designs tailored to your needs, making your vision a reality.",
+    "Built for strength – our decks and fences are made to withstand the toughest conditions.",
+    "Expertly crafted with attention to every detail for a flawless finish.",
+    "Fast, efficient project timelines so you can enjoy your new deck or fence sooner.",
+    "Competitive pricing without compromising on quality.",
+    "Our team is dedicated to ensuring your project is completed on time, every time."
+  ];
   
       
 
@@ -139,9 +139,9 @@ const ApplicationForm = () => {
                </ul> */}
 
                <p className="px-4 sm:text-lg">
-               At Sagittarius Construction, we are committed to delivering top-quality decks, fences, and renovations that stand the test of time. Whether you are looking to enhance your outdoor space or start a new construction project, our expert team is ready to bring your vision to life—on budget, on time, and with craftsmanship you can trust.
+               At Sagittarius Construction, we&apos;ere committed to delivering top-quality decks, fences, and renovations that stand the test of time. Whether you're looking to enhance your outdoor space or start a new construction project, our expert team is ready to bring your vision to life—on budget, on time, and with craftsmanship you can trust.
                <br/>
-               Get a Free Consultation Today! Contact us now and we will start planning your next project. Your dream outdoor space is just one call away!
+               Get a Free Consultation Today! Contact us now and let&rsquo;s start planning your next project. Your dream outdoor space is just one call away!
                </p>
 
             </section>
