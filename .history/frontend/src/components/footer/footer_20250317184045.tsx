@@ -90,10 +90,7 @@ const Footer: React.FC<Props> = ({ excludedLink }) => {
           {/* Add your social media icons/links here */}
           {/* <p>Insert social media links here</p> */}
         </div>
-        <a className="text-center text-xl"
-         href="https://www.focusflowsoftware.com">
-          Developed by Focus Flow Software
-        </a>
+        <a href=""
 
         {/* Optional Quote */}
         {/* <p className="text-center text-sm md:text-base max-w-2xl mx-auto">

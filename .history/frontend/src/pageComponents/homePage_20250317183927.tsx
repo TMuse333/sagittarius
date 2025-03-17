@@ -1,3 +1,4 @@
+
 import React from "react";
 import Link from "next/link";
 
@@ -85,15 +86,11 @@ const Footer: React.FC<Props> = ({ excludedLink }) => {
         </div>
 
         {/* Social Media Section */}
-        {/* <h6 className="text-3xl sm:text-4xl font-semibold mb-8 text-center">Social Media</h6> */}
+        <h6 className="text-3xl sm:text-4xl font-semibold mb-8 text-center">Social Media</h6>
         <div className="flex justify-center gap-6 mb-8">
           {/* Add your social media icons/links here */}
-          {/* <p>Insert social media links here</p> */}
+          <p>Insert social media links here</p>
         </div>
-        <a className="text-center text-xl"
-         href="https://www.focusflowsoftware.com">
-          Developed by Focus Flow Software
-        </a>
 
         {/* Optional Quote */}
         {/* <p className="text-center text-sm md:text-base max-w-2xl mx-auto">
