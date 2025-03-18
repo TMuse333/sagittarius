@@ -3,15 +3,13 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import TypeAlongText from "@/components/textAnimations/typeAlongText/typeAlongText";
 import FadeInFromLeftText from "@/components/textAnimations/fadeInFromLeftText/fadeInFromLeftText";
-import Link from "next/link";
+
 import logo from '../../../public/logo.webp'
 interface CarouselHeroProps {
   mainHeader: string;
   titleText: string;
   descriptionText: string;
-  hasScroll?:boolean
-  buttonText?: string;
-  destination?:string
+  // buttonText: string;
   regularText?:boolean
   images:{
     src:string,
@@ -120,10 +118,7 @@ const CarouselHero: React.FC<CarouselHeroProps> = ({
   titleText,
   descriptionText,
  images,
-  regularText,
-  buttonText,
-  hasScroll,
-  destination
+  regularText
 
 }) => {
   const [startPTag, setStartPTag] = useState(false);
@@ -133,14 +128,6 @@ const CarouselHero: React.FC<CarouselHeroProps> = ({
     setStartTypeAlong(true);
   };
 
-  // const scrollToDestination = (destination:string) => {
-  //   const element = document.getElementById(destination);
-  //   if (element) {
-  //     element.scrollIntoView({ behavior: "smooth" });
-  //   }
-  // };
-  
-
   return (
     <header
       className="flex flex-col md:flex-row md:h-screen relative items-center mx-auto max-w-[2200px]  md:mt-[-4rem] 
@@ -148,7 +135,7 @@ const CarouselHero: React.FC<CarouselHeroProps> = ({
    "
     >
         <div className="hidden md:block absolute top-[0%] z-[100] w-full bg-[#4D8890] h-[30px]"></div>
-        <div className="absolute bottom-[0%] z-[100] w-full bg-gradient-to-t from-[#4D8890] to-[#4D8890] h-[60px]"></div>
+        <div className="absolute bottom-[0%] z-[100] w-full bg-gradient-to-t from-[#4D8890] to-[#4D8890] h-[100px]"></div>
       {!regularText ? (
 
       
@@ -184,7 +171,7 @@ const CarouselHero: React.FC<CarouselHeroProps> = ({
           styles="mx-auto py-3 break-words max-w-full px-2 font-semibold whitespace-pre-line
           overflow-wrap text-3xl sm:text-4xl md:text-5xl"
           as="p"
-          keywords={["Construction","Renovations"]}
+          keywords={["Construction","Fence"]}
           setAnimationComplete={setStartPTag}
           startAnimation={startTypeAlong}
         />
@@ -200,33 +187,11 @@ const CarouselHero: React.FC<CarouselHeroProps> = ({
         />
 
 <section className="flex items-center mr-auto ml-4 mt-6">
-
-
-{hasScroll && destination && buttonText && (
-  <button
-    className="rounded-full border border-neutral-950 p-3 text-sm font-medium transition-colors hover:bg-[#518c94] hover:text-neutral-100 bg-[#4D8890] mr-4"
-    onClick={() => {
-      if (hasScroll && destination) {
-        const element = document.getElementById(destination);
-        if (element) {
-          element.scrollIntoView({ behavior: "smooth" });
-        }
-      }
-    }}
-  >
-    {buttonText}
-  </button>
-)}
-
-{!hasScroll && destination && buttonText && (
-  <Link href={destination}>
-    <button className="rounded-full border border-neutral-950 p-3 text-sm font-medium transition-colors hover:bg-neutral-950 hover:text-neutral-100 bg-[#338d96] mr-4">
-      {buttonText}
-    </button>
-  </Link>
-)}
-
-
+      <button className=" rounded-full border border-neutral-950 p-3 text-sm font-medium transition-colors hover:bg-neutral-950 hover:text-neutral-100
+      bg-[#338d96]
+      mr-4">
+        Contact
+      </button>
  
   
       </section>

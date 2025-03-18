@@ -107,7 +107,7 @@ const imageFadeIn = (delay:number) => {
       className={`overflow-x-hidden flex flex-col justify-center items-center pt-8 pb-8 relative mx-auto max-w-[1200px] ${
         reverse ? "md:flex-row-reverse" : "md:flex-row"
 
-      } ${bgColor ? `bg-[#4D8890]` : ''}
+      } ${bgColor ? `bg-[]` : ''}
       `}
     >
      

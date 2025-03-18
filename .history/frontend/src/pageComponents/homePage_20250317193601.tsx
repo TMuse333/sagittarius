@@ -136,7 +136,6 @@ const Homepage = () => {
 
               <ImageTextBox
               {...imageTextBoxData}
-              bgColor
               />
 
         

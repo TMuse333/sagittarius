@@ -7,10 +7,8 @@ export const carouselHeroData = {
     mainHeader: "Fantastic Construction & Renovations",
     titleText: "Construction in Halifax Nova Scotia",
     descriptionText:
-      "At Sagittarius Construction, we specialize in top-quality renovations, decks, and fences that elevate your home and outdoor space. From kitchen remodels and living area updates to custom decks and durable fences, we deliver expert craftsmanship and reliable service. Our commitment to quality materials and precision ensures that every project enhances the beauty, functionality, and value of your property.",
+      "Providing top-quality renovations, decks, and fences that transform your home and outdoor space. Whether you're looking for a stunning kitchen remodel, a modernized living area, a custom-built deck, or a durable privacy fence, we bring expert craftsmanship and reliability to every project. With a commitment to quality materials, precision work, and customer satisfaction, Sagittarius Construction ensures that every renovation or outdoor upgrade enhances both the beauty and value of your property",
     buttonText: "Get in Touch",
-    hasScroll:true,
-    destination:'contact',
     images: [
         {
             src: '/deck.webp',

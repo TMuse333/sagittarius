@@ -7,10 +7,8 @@ export const carouselHeroData = {
     mainHeader: "Fantastic Construction & Renovations",
     titleText: "Construction in Halifax Nova Scotia",
     descriptionText:
-      "At Sagittarius Construction, we specialize in top-quality renovations, decks, and fences that elevate your home and outdoor space. From kitchen remodels and living area updates to custom decks and durable fences, we deliver expert craftsmanship and reliable service. Our commitment to quality materials and precision ensures that every project enhances the beauty, functionality, and value of your property.",
+      "Providing top-quality renovations, decks, and fences that transform your home and outdoor space. Whether you're looking for a stunning kitchen remodel, a modernized living area, a custom-built deck, or a durable privacy fence, we bring expert craftsmanship and reliability to every project. With a commitment to quality materials, precision work, and customer satisfaction, Sagittarius Construction ensures that every renovation or outdoor upgrade enhances both the beauty and value of your property",
     buttonText: "Get in Touch",
-    hasScroll:true,
-    destination:'contact',
     images: [
         {
             src: '/deck.webp',
@@ -41,14 +39,6 @@ export const carouselHeroData = {
   };
 
 export const lorem60 = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nobis laborum porro voluptas molestias nihil, eum ea velit quae, perspiciatis blanditiis dolorum culpa unde est eos earum a rem eveniet accusantium doloremque! Molestias illum inventore quae adipisci esse unde tempore, deleniti sed culpa nulla, sint placeat asperiores commodi? Libero ut tempora ad deserunt beatae facilis cum esse magni quaerat. Quasi nihil perspiciatis culpa minus, voluptates inventore saepe repudiandae reiciendis accusantium fuga exercitationem vero, eligendi voluptatibus nam neque, cumque explicabo vitae tenetur expedita accusamus placeat. Corporis perspiciatis, eius minus debitis ex, ad ducimus, error neque id itaque eligendi quibusdam hic pariatur!"
-
-export const renovationIntro = {
-  title: "Transform Your Home with Expert Renovations",
-  description: 
-    "At Sagittarius Construction, we bring over 5 years of experience in delivering high-quality renovations that elevate your home without disrupting your daily life. Whether you’re looking to modernize your kitchen, refresh your bathroom, or transform your entire home, we guarantee expert craftsmanship, attention to detail, and lasting results. Our team works efficiently and professionally, ensuring that your renovation is completed on time and within budget. With a focus on durability, style, and functionality, we create spaces that not only look incredible but also improve the way you live.",
-  buttonText: "Get a Free Quote",
-  buttonDestination: "/contact",
-};
 
 export const imageTextBoxData = {
     src: '/logo.webp',

@@ -133,12 +133,12 @@ const CarouselHero: React.FC<CarouselHeroProps> = ({
     setStartTypeAlong(true);
   };
 
-  // const scrollToDestination = (destination:string) => {
-  //   const element = document.getElementById(destination);
-  //   if (element) {
-  //     element.scrollIntoView({ behavior: "smooth" });
-  //   }
-  // };
+  const scrollToDestination = (destination:string) => {
+    const element = document.getElementById(destination);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   
 
   return (

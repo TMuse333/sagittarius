@@ -154,7 +154,7 @@ const TextAndList:React.FC<Props> = ({
     //   }
    
       return (
-        <section className="w-full py-12  bg-gradient-to-b from-[#4D8890] to-[#4D8890]">
+        <section className="w-full py-12  bg-gradient-to-b from-[#4D8890] to-[#A8C8D0]">
 
 
         <section ref={ref}

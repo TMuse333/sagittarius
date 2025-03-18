@@ -20,8 +20,7 @@ gridItems,
 imageTextBoxData,
 deckTextBox,
 fenceTextBox,
-aspectsData,
-renovationIntro} from "@/data/homeData";
+aspectsData} from "@/data/homeData";
 import React from "react";
 
 
@@ -87,16 +86,12 @@ const Homepage = () => {
 <section id='work'>
 
     <VerticalImageTextBox
-    {...renovationIntro}
-    />
+    {...re}
 
     <ImageTextBox
     {...deckTextBox}
     objectContain
     />
-
-    <div className="w-[90vw] mx-auto max-w-[1500px]
-    h-[5px] bg-[#4D8890] mb-4"/>
 
     <ImageTextBox
     {...fenceTextBox}
@@ -136,7 +131,6 @@ const Homepage = () => {
 
               <ImageTextBox
               {...imageTextBoxData}
-              bgColor
               />
 
         

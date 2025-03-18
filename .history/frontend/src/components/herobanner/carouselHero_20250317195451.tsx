@@ -133,12 +133,12 @@ const CarouselHero: React.FC<CarouselHeroProps> = ({
     setStartTypeAlong(true);
   };
 
-  // const scrollToDestination = (destination:string) => {
-  //   const element = document.getElementById(destination);
-  //   if (element) {
-  //     element.scrollIntoView({ behavior: "smooth" });
-  //   }
-  // };
+  const scrollToDestination = (destination:string) => {
+    const element = document.getElementById(destination);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   
 
   return (
@@ -148,7 +148,7 @@ const CarouselHero: React.FC<CarouselHeroProps> = ({
    "
     >
         <div className="hidden md:block absolute top-[0%] z-[100] w-full bg-[#4D8890] h-[30px]"></div>
-        <div className="absolute bottom-[0%] z-[100] w-full bg-gradient-to-t from-[#4D8890] to-[#4D8890] h-[60px]"></div>
+        <div className="absolute bottom-[0%] z-[100] w-full bg-gradient-to-t from-[#4D8890] to-[#4D8890] h-[100px]"></div>
       {!regularText ? (
 
       
@@ -204,7 +204,7 @@ const CarouselHero: React.FC<CarouselHeroProps> = ({
 
 {hasScroll && destination && buttonText && (
   <button
-    className="rounded-full border border-neutral-950 p-3 text-sm font-medium transition-colors hover:bg-[#518c94] hover:text-neutral-100 bg-[#4D8890] mr-4"
+    className="rounded-full border border-neutral-950 p-3 text-sm font-medium transition-colors hover:bg-neutral-950 hover:text-neutral-100 bg-red-200 mr-4"
     onClick={() => {
       if (hasScroll && destination) {
         const element = document.getElementById(destination);

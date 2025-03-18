@@ -63,7 +63,7 @@ const Homepage = () => {
             />
            
         <main className="w-screen mt-[5rem]
-        bg-[#404040]">
+        bg-[#4D8890]">
            
 
             
@@ -94,9 +94,6 @@ const Homepage = () => {
     {...deckTextBox}
     objectContain
     />
-
-    <div className="w-[90vw] mx-auto max-w-[1500px]
-    h-[5px] bg-[#4D8890] mb-4"/>
 
     <ImageTextBox
     {...fenceTextBox}
@@ -136,7 +133,6 @@ const Homepage = () => {
 
               <ImageTextBox
               {...imageTextBoxData}
-              bgColor
               />
 
         

@@ -154,7 +154,7 @@ const TextAndList:React.FC<Props> = ({
     //   }
    
       return (
-        <section className="w-full py-12  bg-gradient-to-b from-[#4D8890] to-[#4D8890]">
+        <section className="w-full py-12  bg-gradient-to-b from-[#4D8890] to-[#A8C8D0]">
 
 
         <section ref={ref}
@@ -165,8 +165,8 @@ const TextAndList:React.FC<Props> = ({
           <section className="flex flex-col justify-center items-center
           space-y-4 p-4
           mb-auto text-center">
-            <h3 className="text-lg font-semibold text-white">{subTitle}</h3>
-            <h2 className="text-3xl font-bold text-white
+            <h3 className="text-lg font-semibold text-gray-700">{subTitle}</h3>
+            <h2 className="text-3xl font-bold text-gray-900
             text-center font-cursive">{title}</h2>
             {src && alt && (
               <Image
@@ -178,7 +178,7 @@ const TextAndList:React.FC<Props> = ({
                 max-w-[668px] mx-auto object-cover"
               />
             )}
-            <p className="text-white
+            <p className="text-black
             md:text-left">{description}</p>
             {link && (
 <>
