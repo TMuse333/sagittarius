@@ -12,7 +12,7 @@ import ImageTextBox from "@/components/imageTextBox/imageTextBox";
 import Navbar from "@/components/navbar/navbar";
 import TextAndList from "@/components/textAndList/textAndList";
 import AppearingGradient from "@/components/textAnimations/appearingGradient/appearingGradient";
-
+import VerticalImageTextBox from "@/components/verticalImageText/verticalImageText";
 import { carouselHeroData, experienceCardData,
      testimonials,
       textAndListData,

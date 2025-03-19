@@ -56,8 +56,8 @@ export const imageTextBoxData = {
     description: "We Are A Local Nova Scotian Team. Delivering Up To Date Construction & Renovation Practices & Designs. Old School Work Ethic & Care, Giving Our Clients Workmanship On A Budget, On Time. We Proudly Commit To A Friendly & Transparent Approach To Building Lasting Relationships."
 ,
     title: 'Meet Our Team',
-    // buttonLink: '/about-us',
-    // buttonText: 'Learn More'
+    buttonLink: '/about-us',
+    buttonText: 'Learn More'
 };
   
 

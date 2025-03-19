@@ -46,8 +46,8 @@ export const renovationIntro = {
   title: "Transform Your Home with Expert Renovations",
   description: 
     "At Sagittarius Construction, we bring over 5 years of experience in delivering high-quality renovations that elevate your home without disrupting your daily life. Whether you’re looking to modernize your kitchen, refresh your bathroom, or transform your entire home, we guarantee expert craftsmanship, attention to detail, and lasting results. Our team works efficiently and professionally, ensuring that your renovation is completed on time and within budget. With a focus on durability, style, and functionality, we create spaces that not only look incredible but also improve the way you live.",
-  src: "/kitchen.webp",
-  alt: "renovated kitchen",
+  src: "Get a Free Quote",
+  buttonDestination: "/contact",
 };
 
 export const imageTextBoxData = {
@@ -56,8 +56,8 @@ export const imageTextBoxData = {
     description: "We Are A Local Nova Scotian Team. Delivering Up To Date Construction & Renovation Practices & Designs. Old School Work Ethic & Care, Giving Our Clients Workmanship On A Budget, On Time. We Proudly Commit To A Friendly & Transparent Approach To Building Lasting Relationships."
 ,
     title: 'Meet Our Team',
-    // buttonLink: '/about-us',
-    // buttonText: 'Learn More'
+    buttonLink: '/about-us',
+    buttonText: 'Learn More'
 };
   
 
